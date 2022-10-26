@@ -32,4 +32,53 @@ ul {
                     outline-offset: -20px;
                 }
                 
+
+              li {
+  padding-left: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #b2d235;
+}
+
+td th {
+  border: 2px solid #fff;
+  padding: 8px;
+}
+
+.frame {
+  background-color: purple;
+  color: #fff;
+  padding: 1rem;
+  border: 7px double #fff;
+}
+
+.pyramid {
+  font-family: sans-serif;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  background: #b18979;
+  color: #fff;
+  padding: 1rem;
+  margin-bottom: 2px;
+}
+
+li:first-child {
+  border-radius: 7px 7px 0 0;
+}
+
+li:last-child {
+  border-radius: 0 0 7px 7px;
+}
+
            
